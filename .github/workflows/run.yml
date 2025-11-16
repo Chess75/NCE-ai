@@ -41,7 +41,7 @@ jobs:
 
           chmod +x engines/ClassicSF
           chmod +x engines/ClassicSF_var
-          chmod +x engines/Sf_960
+          chmod +x engines/Stockfish-960
 
       - name: Run Bot
         run: |

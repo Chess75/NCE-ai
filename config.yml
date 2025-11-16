@@ -260,5 +260,5 @@ books:                                    # Names of the opening books (to be us
   Six: "engines/books/Perfect2023.bin"
   chess960: "engines/books/chess960.bin"
   chess960-2: "engines/books/chess960-win.bin"
-  Magnus: "engines/books/humans/Magnus.bin"
+  Magnus: "engines/books/humans/Carlsen.bin"
   Nepo: "engines/books/humans/Nepomniachtchi.bin"

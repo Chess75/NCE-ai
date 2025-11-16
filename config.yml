@@ -100,6 +100,7 @@ opening_books:
       selection: weighted_random
       names:
         - Grooob
+        - Draw_fix
         - Magnus
         - Nepo
     chess960:
@@ -161,7 +162,7 @@ offer_draw:
   score: 10                               # If the absolute value of the score is less than or equal to this value, the bot offers/accepts draw (in cp)
   consecutive_moves: 5                    # How many moves in a row the absolute value of the score has to be below the draw value
   min_game_length: 30                     # Earliest move in which draw is offered.
-  against_humans: true                    # Activate whether these settings should apply against humans.
+  against_humans: false                    # Activate whether these settings should apply against humans.
 # min_rating: 2300                        # Minimum rating of opponent to offer draw.
 
 resign:
@@ -264,3 +265,4 @@ books:                                    # Names of the opening books (to be us
   Grooob: "engines/books/humans/GROB_THE_BEST.bin"
   Magnus: "engines/books/humans/Carlsen.bin"
   Nepo: "engines/books/humans/Nepomniachtchi.bin"
+  Draw_fix: "engines/books/humans/Draw_fix.bin"

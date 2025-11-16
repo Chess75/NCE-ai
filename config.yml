@@ -263,6 +263,7 @@ books:                                    # Names of the opening books (to be us
   chess960: "engines/books/chess960.bin"
   chess960-2: "engines/books/chess960-win.bin"
   Grooob: "engines/books/humans/GROB_THE_BEST.bin"
+  Draw_fix: "engines/books/humans/Draw_fix.bin"
   Magnus: "engines/books/humans/Carlsen.bin"
   Nepo: "engines/books/humans/Nepomniachtchi.bin"
-  Draw_fix: "engines/books/humans/Draw_fix.bin"
+  

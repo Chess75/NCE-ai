@@ -109,8 +109,8 @@ opening_books:
     chess960:
       selection: weighted_random
       names:
-        - Chess960
-        - Chess960-2
+        - chess960
+        - chess960-2
 #   Use the same pattern for 'bullet', 'blitz', 'rapid', 'classical', time controls in initial_minutes+increment_seconds format,
 #   'antichess', 'atomic', 'chess960', 'crazyhouse', 'horde', 'kingofthehill', 'racingkings' and '3check' as well.
 #   Append '_white', '_black', '_human', '_bot', '_rated', '_casual' and/or '_tournament'

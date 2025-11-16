@@ -96,16 +96,11 @@ opening_books:
         - Four
         - Five
         - Six
-    _human:
+    standard_human:
       selection: weighted_random
       names:
-        - French
-        - First
-        - Second
-        - Third
-        - Four
-        - Five
-        - Six
+        - Magnus
+        - Nepo
     chess960:
       selection: weighted_random
       names:
@@ -239,24 +234,24 @@ messages:
   #   {cpu} to insert CPU information
   #   {ram} to insert RAM size
   # Any other words in curly braces will be removed.
-  greeting: "Hey, {opponent}! Good luck and have fun! Type !help for a list of commands." # Message sent to the opponent at the beginning of a game.
+  greeting: "Hey, @{opponent} ! Good luck and have fun! Type !help for a list of commands." # Message sent to the opponent at the beginning of a game.
   goodbye: "Good game, see you next time."                                             # Message sent to the opponent after the end of a game.
   greeting_spectators: "Hey, I'm running {engine}. Type !help for a list of commands." # Message sent to the spectators at the beginning of a game.
   goodbye_spectators: "Thanks for watching."                                           # Message sent to the spectators after the end of a game.
 
 whitelist:                                # List of users whose challenges are always accepted.
-# - Username1
-# - Username2
+  - ChessClassic_555
+  - BOT_Stockfish13
+  - Classic_BOT-v2
 
 blacklist:                                # List of users who are not challenged and whose challenges are declined.
-# - Username1
-# - Username2
+#  - Username1
+#  - Username2
 
 online_blacklists:                        # List of URLs for online blacklists. One username per line.
 # - https://raw.githubusercontent.com/xu-shawn/lichess-bots-blocklist/refs/heads/main/blocklist  # Contains most of the bot accounts that use Stockfish.
 
 books:                                    # Names of the opening books (to be used above in the opening_books section) and paths to the opening books.
-  French: "engines/books/french.bin"
   First: "engines/books/Book1.bin"
   Second: "engines/books/Book2.bin"
   Third: "engines/books/Book3.bin"
@@ -265,3 +260,5 @@ books:                                    # Names of the opening books (to be us
   Six: "engines/books/Perfect2023.bin"
   chess960: "engines/books/chess960.bin"
   chess960-2: "engines/books/chess960-win.bin"
+  Magnus: "engines/books/humans/Magnus.bin"
+  Nepo: "engines/books/humans/Nepomniachtchi.bin"

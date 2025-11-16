@@ -31,7 +31,7 @@ engines:
 #     nodes: 4000000                      # Max nodes per move.
   chess960:
     dir: "./engines"                      # Directory containing the engine.
-    name: "Sf_960"     # Binary name of the engine to use.
+    name: "Stockfish-960"     # Binary name of the engine to use.
     ponder: true                          # Think on opponent's time.
     silence_stderr: false                 # Suppresses stderr output.
     move_overhead_multiplier: 1.0         # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
